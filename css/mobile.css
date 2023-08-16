@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .container-avatar {
+    display: none;
+  }
+
+  /* navigation */
+  .nav-bar {
+    flex: none;
+    display: block;
+    padding: 14px 16px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    height: 100%;
+  }
+  .item-nav {
+    flex: none;
+    justify-content: left;
+    margin: 20px;
+  }
+  .background,
+  .info,
+  .project,
+  .certificate {
+    border: none;
+  }
+
+  .target {
+    margin: 60px 36px auto 36px;
+    padding-bottom: 50px;
+  }
+  /* PERSONAL INFORMATION */
+
+  .per-info {
+    margin: 60px 36px auto 36px;
+    padding-bottom: 50px;
+  }
+
+  /* icon distance*/
+  .section-title {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+}

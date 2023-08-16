@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+
+  background-color: rgb(0, 0, 255);
+}
+
+.color {
+  background-color: #f0f8ff;
+}
+
+/* in đậm tiêu đề mô tả */
+p:first-child {
+  font-weight: bold;
+}
+/* GOAL */
+.goal-describe,
+.team-describe,
+.scope-column,
+.time-describe,
+.primary-describe {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-left: 32px;
+  color: blue;
+  font-size: 20px;
+}
+
+.goal-row,
+.team-row,
+.time-row,
+.primary-row {
+  border-bottom: 1px solid #d4d4d4;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.icon svg {
+  height: 30px;
+}
+/* SCOPS */
+.scope-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  border-top: 1px solid #d4d4d4;
+  padding-top: 1em;
+}
+/* TEAM */
+/* TIMELINE */
+.time-row,
+.primary-row {
+  margin-bottom: 1em;
+}
+
+.circle {
+  background-color: #a48eff;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle h1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+/* PRIMARY */
+.goal,
+.team,
+.timeline,
+.scopes,
+.primary {
+  height: 100%;
+  width: 100%;
+}
+.timeline {
+  padding: 0 !important;
+  margin: 0 !important;
+}

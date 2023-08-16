@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* THÔNG TIN */
+
+  /* chỉnh lại border cho  nav */
+  .background,
+  .info {
+    border-left: 1px solid #dee2e6;
+  }
+  .project,
+  .certificate {
+    border-right: 1px solid #dee2e6;
+  }
+  .nav-bar {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  /* căn chỉnh mục tiều nghề nghiệp và thông tin cá nhân */
+
+  .icon-info {
+    padding-bottom: 3em;
+  }
+}
